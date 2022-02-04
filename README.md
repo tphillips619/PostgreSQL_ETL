@@ -6,16 +6,16 @@ Create an ETL pipeline that takes JSON data on disk and creates a star schema in
 ## Data Model
 A star schema model optimized for queries on song play analysis
 ### Fact table:
-**songplays**
+##### **songplays**
 - songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 ### Dimension tables:
-**users**
+##### **users**
 - user_id, first_name, last_name, gender, level
-**songs**
+##### **songs**
 - song_id, title, artist_id, year, duration
-**artists**
+##### **artists**
 - artist_id, name, location, latitude, longitude
-**time**
+##### **time**
 - start_time, hour, day, week, month, year, weekday
 
 # Files

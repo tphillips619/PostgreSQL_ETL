@@ -16,7 +16,7 @@ A star schema model optimized for queries on song play analysis
 ##### **artists**
 - artist_id, name, location, latitude, longitude
 ##### **time**
-- start_time, hour, day, week, month, year, weekday
+- time_id, start_time, hour, day, week, month, year, weekday
 
 # Files
 ## ETL Pipeline
